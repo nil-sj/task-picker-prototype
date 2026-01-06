@@ -25,6 +25,11 @@ function showResult(text) {
   resultWrap.hidden = false;
 }
 
+function modifyButton() {
+  findOutBtn.textContent = "Find Out Again";
+  findOutBtn.disabled = false;
+}
+
 // On page load we intentionally do NOT show any result.
 hideResult();
 clearError();
@@ -56,7 +61,7 @@ findOutBtn.addEventListener("click", async () => {
     const options = await loadOptionsOnce();
     if (!options.length) {
       hideResult();
-      showError("No active options available. Set some items to isActive: true in options.json.");
+      showError("No active options available!");
       return;
     }
 
@@ -65,7 +70,8 @@ findOutBtn.addEventListener("click", async () => {
   } catch (e) {
     hideResult();
     showError(e?.message || "Something went wrong.");
+    
   } finally {
-    findOutBtn.disabled = false;
+    modifyButton();
   }
 });
