@@ -38,6 +38,9 @@
   { "description": "Play A Board Game", "isActive": true },
   { "description": "Arts and Crafts project", "isActive": true },
   { "description": "Woodworking project", "isActive": true },
-  { "description": "Practice Counting objects", "isActive": true }
-  { "description": "Play I Spy", "isActive": true }
+  { "description": "Practice Counting objects", "isActive": true },
+  { "description": "Play I Spy", "isActive": true },
+  { "description": "Play Piano", "isActive": true },
+  { "description": "Do Sums (Math)", "isActive": true },
+  { "description": "Reading Practice", "isActive": true }
 ]
