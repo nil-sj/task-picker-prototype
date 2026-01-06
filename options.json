@@ -1,0 +1,6 @@
+[
+  { "description": "Drawing", "isActive": true },
+  { "description": "Craft Project", "isActive": true },
+  { "description": "Movie Time", "isActive": true },
+  { "description": "Read Books", "isActive": false }
+]
