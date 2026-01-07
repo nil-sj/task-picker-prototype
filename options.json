@@ -42,5 +42,14 @@
   { "description": "Play I Spy", "isActive": true },
   { "description": "Play Piano", "isActive": true },
   { "description": "Do Sums (Math)", "isActive": true },
-  { "description": "Reading Practice", "isActive": true }
+  { "description": "Reading Practice", "isActive": true },
+  { "description": "Sticker Book", "isActive": true },
+  { "description": "Cut & Paste Craft", "isActive": true },
+  { "description": "Pretend School Teacher", "isActive": true },
+  { "description": "Pretend Cash Counter", "isActive": true },
+  { "description": "Art: Magazine Collage", "isActive": true },
+  { "description": "Find Object Starting with A Letter", "isActive": true },
+  { "description": "Practice: Abacus Math", "isActive": true },
+  { "description": "Play: Ring Throw on Bottles", "isActive": true },
+  { "description": "Practice: Tying Shoelaces", "isActive": true }
 ]
